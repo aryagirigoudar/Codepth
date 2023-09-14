@@ -40,7 +40,7 @@ $black: black;
                 border: none;
                 background-color: $light_purple;
                 border-bottom: 1px solid $dark_purple;
-                
+
                 &::placeholder{
                     color:$dark_purple;
                 }
@@ -98,10 +98,8 @@ $black: black;
                 overflow: scroll;
                 height: calc(100% - 160px);
                 .message{
-
                     display: flex;
                     gap: 10px;
-                    
                     margin-bottom: 20px;
                     .messageContent{
                         p{
@@ -177,8 +175,6 @@ $black: black;
                     border: none;
                 }
                 button{
-
-                    
                     border: none;
                     font-size: 12px;
                     background-color: $dark_purple;
@@ -189,12 +185,8 @@ $black: black;
                     &:hover{
                         background-color: $white;
                         color:$black;
-
-                        transition-duration: 200ms;
-                        
+                        transition-duration: 200ms;  
                     }
-                    
-                    
                 }
                 label{
                     cursor: pointer;
@@ -238,7 +230,10 @@ $black: black;
                 align-items: center;
                 &:hover{
                     background-color: $white;
-        
+                    color: $dark_purple;
+                    p{
+                        color:$dark_purple;
+                    }
                     transition-duration: 200ms;
                     border-right: 1px solid $black;
                 }
